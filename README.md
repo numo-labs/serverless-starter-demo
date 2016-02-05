@@ -100,6 +100,8 @@ Here are the steps to set up the Serverless example project 'serverless-starter'
 
 8. Next we're going to run our Lambda functions locally. Type the following command in your command line. The third piece is the route to your function. We're testing the 'all' function and so ours is:
 
+_(make sure you cd into your serverless-starter directory before typing this command)_
+
   ```$ serverless function restApi/single/all```
 
   You should then see the function run and return the results:
