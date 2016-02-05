@@ -86,8 +86,8 @@ Here are the steps to set up the Serverless example project 'serverless-starter'
 
   ![inside the files](https://cloud.githubusercontent.com/assets/12450298/12822502/43a7e9c2-cb60-11e5-8bd6-8fa5a0cf963b.png)
 
-  ```lib``` - holds code shared across all of your functions
-  ```multi``` - this is a Serverless module that contains multiple Lambda functions
+  ```lib``` - holds code shared across all of your functions  
+  ```multi``` - this is a Serverless module that contains multiple Lambda functions  
   ```single``` - this is another Serverless module containing one Lambda function with multiple endpoints
 
   In the ```multi``` directory click on the ```create``` directory and then the ```s-function.json``` file. This file contains endpoint configuration information for that Lambda function.
